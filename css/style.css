@@ -413,7 +413,7 @@ meter::-webkit-meter-optimum-value {
 @media screen and (max-width: 630px){
 
 	.header-circle {
-		margin: 70px;
+		display: none;
 	}
 	
 	header{
