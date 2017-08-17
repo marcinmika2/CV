@@ -345,20 +345,20 @@ meter::-webkit-meter-optimum-value {
 
 .time {
 	position: absolute;
-	width: 100px;
+	width: 150px;
 	font-size: 13px;
 	margin-top: -3px;
-	margin-left: -40px;
+	margin-left: -65px;
 	color: #9E9E9E;
 	text-align: center;
 }
 
 .time2 {
 	position: absolute;
-	width: 100px;
+	width: 150px;
 	font-size: 13px;
 	margin-top: -31px;
-	margin-left: -40px;
+	margin-left: -65px;
 	color: #9E9E9E;
 	text-align: center;
 }
