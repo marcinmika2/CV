@@ -300,6 +300,10 @@ meter::-webkit-meter-optimum-value {
 	height: 20vh;
 }
 
+.information h1{
+	margin-bottom: 10px;
+}
+
 .Timeline {
 	display: flex;
 	justify-content: center;
