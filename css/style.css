@@ -1,4 +1,4 @@
-body {
+	body {
 	margin: 10%;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -11,7 +11,6 @@ header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
 }
 
 p {
@@ -107,7 +106,7 @@ meter {
 
 #circle-field {
 	position: relative;
-	left:10%;
+	left: 10%;
 	height: 230px;
 	width: 300px;
 }
@@ -226,9 +225,6 @@ meter {
 	height: 20%;
 }
 
-.opis2 {
-	height: 40%;
-}
 
 .opis2 div {
 	height: auto;
@@ -297,11 +293,7 @@ meter::-webkit-meter-optimum-value {
 .information {
 	display: flex;
 	flex-direction: column;
-	height: 20vh;
-}
-
-.information h1{
-	margin-bottom: 10px;
+	height: 40vh;
 }
 
 .Timeline {
@@ -335,11 +327,6 @@ meter::-webkit-meter-optimum-value {
 .event1Bubble {
 	top: -60px;
 	left: -85px;
-}
-
-.Day p {
-	font-size: 15px;
-	color: white;
 }
 
 .event2Bubble {
@@ -377,66 +364,81 @@ meter::-webkit-meter-optimum-value {
 	.experiance-field {
 		width: 100%;
 	}
-	
-	.experiance-field-1{order: 2;}
-	
-	.experiance-field-2{
+	.experiance-field-1 {
+		order: 2;
+	}
+	.experiance-field-2 {
 		order: 1;
 		border: none;
 	}
-
-	.border-in-experiance-field-2{
+	.border-in-experiance-field-2 {
 		order: 2;
 		border-left: solid lightgrey;
 		border-right: none;
 	}
-	
 	.interests {
-	flex-direction: column;
-	justify-content: center;
-}
-	.interests-field {
-	width: 100%;
-}
-	.event-Bubble{
-	width: 100px;
-	height: 57px;
-	font-size: 13px;
+		flex-direction: column;
+		justify-content: center;
 	}
-	
+	.interests-field {
+		width: 100%;
+	}
+	.event-Bubble {
+		width: 100px;
+		height: 57px;
+		font-size: 13px;
+	}
 	.event1Bubble {
-	top: -60px;
-	left: -40px;
-}
+		top: -60px;
+		left: -40px;
+	}
 	.event2Bubble {
-	left: -40px;
-	top: 33px;
-}
+		left: -40px;
+		top: 33px;
+	}
 }
 
-@media screen and (max-width: 630px){
-
+@media screen and (max-width: 630px) {
 	.header-circle {
 		display: none;
 	}
-	
-	header{
+	header {
 		flex-direction: column;
 	}
-	
-	.header-name{
+	.header-name {
 		width: auto
 	}
-	
-	.header-details{
+	.header-details {
 		width: auto;
 	}
 	.border-in-experiance-field-1 p {
-	font-size: 30px;
-
-}
-		.border-in-experiance-field-2 p {
-	font-size: 30px;
-
-}
-}
+		font-size: 30px;
+	}
+	.border-in-experiance-field-2 p {
+		font-size: 30px;
+	}
+	@media screen and (max-width: 430px) {
+		.event-Bubble {
+			width: 70px;
+			height: 39px;
+		}
+		.Day{
+			height: auto;
+			width: auto;
+			font-size: 10px
+		}
+		.event1Bubble {
+			top: -40px;
+			left: -25px;
+			font-size: 9px;
+		}
+		
+		.event1Bubble p{
+			font-size: 10px;
+			color: white;
+		}
+		.event2Bubble {
+			left: -25px;
+			top: 25px;
+		}
+	}
