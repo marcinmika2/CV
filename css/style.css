@@ -1,0 +1,438 @@
+body {
+	margin: 10%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+p {
+	margin: 5px;
+	color: gray;
+}
+
+i {
+	color: grey;
+}
+
+header h1 {
+	margin: 5px;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color: royalblue;
+}
+
+h2 {
+	margin: 5px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	color: royalblue;
+	font-weight: 100;
+}
+
+h3 {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+
+hr {
+	width: 95%;
+	color: grey;
+	opacity: 0.3;
+}
+
+li {
+	list-style-type: none;
+	margin: 15px;
+}
+
+meter {
+	float: right;
+	width: 60%;
+	margin-right: 15px;
+}
+
+.header-class {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+	height: 90%;
+}
+
+.header-name {
+	flex-grow: 2;
+}
+
+.header-circle {
+	align-items: center;
+	flex-grow: 1;
+}
+
+.header-details {
+	align-items: flex-end;
+	flex-grow: 2;
+}
+
+.circle {
+	position: absolute;
+	border-radius: 200px;
+	opacity: 0.7;
+	padding: 20px;
+	width: 80px;
+	height: 80px;
+	background-image: url("../img/IMG_9655.JPG");
+	background-position: center;
+	background-size: cover;
+}
+
+.circle:hover {
+	opacity: 1;
+}
+
+#circle-field {
+	position: relative;
+	left:10%;
+	height: 230px;
+	width: 300px;
+}
+
+.all-circle {
+	position: absolute;
+	padding: 20px;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.all-circle p {
+	color: white;
+}
+
+.circle1 {
+	border-radius: 200px;
+	background-color: skyblue;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	top: 55%;
+}
+
+.circle1:hover {
+	background-color: dodgerblue;
+}
+
+.circle2 {
+	border-radius: 200px;
+	background-color: dodgerblue;
+	width: 100px;
+	height: 100px;
+	left: 25%;
+	top: 5%;
+	line-height: 70px;
+}
+
+.circle2:hover {
+	background-color: cornflowerblue;
+}
+
+.circle3 {
+	border-radius: 200px;
+	background-color: cornflowerblue;
+	width: 40px;
+	height: 40px;
+	left: 7%;
+	top: 1%;
+	line-height: 6px;
+}
+
+.circle3:hover {
+	background-color: royalblue;
+}
+
+.circle4 {
+	border-radius: 200px;
+	background-color: royalblue;
+	width: 70px;
+	height: 70px;
+	left: 7%;
+	top: 50%;
+	line-height: 40px;
+}
+
+.circle4:hover {
+	background-color: skyblue;
+}
+
+.section-field {
+	display: flex;
+	height: auto;
+}
+
+.line {
+	width: 30%;
+	height: 1px;
+	background-color: grey;
+}
+
+.experiance {
+	display: flex;
+	justify-content: center;
+}
+
+.interests {
+	display: flex;
+	justify-content: center;
+}
+
+.experiance-field {
+	display: flex;
+	width: 50%;
+}
+
+.experiance-field h3 {
+	color: grey;
+}
+
+.experiance-field-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.experiance-field-2 {
+	display: flex;
+	flex-direction: column;
+	border-left: solid grey;
+	justify-content: flex-start;
+}
+
+.experiance-field-2 h1 {
+	margin-left: 10px;
+	height: 20%;
+}
+
+.opis2 {
+	height: 40%;
+}
+
+.opis2 div {
+	height: auto;
+}
+
+.interests-field {
+	width: 45%;
+}
+
+meter::-webkit-meter-bar {
+	background: none;
+	/* Required to get rid of the default background property */
+	background-color: whiteSmoke;
+	box-shadow: 0 5px 5px -5px #333 inset;
+	border-radius: 20px;
+}
+
+meter::-webkit-meter-optimum-value {
+	background: skyblue;
+	box-shadow: 0 5px 5px -1px royalblue;
+	border-radius: 20px;
+}
+
+.interests-field-2 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.interests-field-2 h1 {
+	text-align: center;
+}
+
+.opis1 {
+	display: flex;
+	overflow: hidden;
+	margin: 15px;
+}
+
+.border-in-experiance-field-2 {
+	border-right: solid lightgrey;
+}
+
+.border-in-experiance-field-2 p {
+	font-size: 50px;
+	color: deepskyblue;
+}
+
+.border-in-experiance-field-2 h3 {
+	text-align: center;
+}
+
+.border-in-experiance-field-1 p {
+	font-size: 50px;
+	color: deepskyblue;
+}
+
+.border-in-experiance-field-1 h3 {
+	text-align: center;
+}
+
+.border-in-experiance-field-1 {
+	border-left: solid lightgrey;
+}
+
+.information {
+	display: flex;
+	flex-direction: column;
+	height: 20vh;
+}
+
+.Timeline {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60%;
+}
+
+.event1,
+.event2,
+.event3 {
+	position: relative;
+}
+
+.event-Bubble {
+	position: absolute;
+	background-color: dodgerblue;
+	opacity: 0.8;
+	width: 200px;
+	height: 40px;
+	border-radius: 11px;
+	color: white;
+	text-align: center;
+}
+
+.event-Bubble:hover {
+	background-color: skyblue;
+}
+
+.event1Bubble {
+	top: -60px;
+	left: -85px;
+}
+
+.Day p {
+	font-size: 15px;
+	color: white;
+}
+
+.event2Bubble {
+	left: -85px;
+	top: 33px;
+}
+
+.time {
+	position: absolute;
+	width: 100px;
+	font-size: 13px;
+	margin-top: -3px;
+	margin-left: -40px;
+	color: #9E9E9E;
+	text-align: center;
+}
+
+.time2 {
+	position: absolute;
+	width: 100px;
+	font-size: 13px;
+	margin-top: -31px;
+	margin-left: -40px;
+	color: #9E9E9E;
+	text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+	.header-details {
+		font-size: 13px;
+	}
+	.experiance {
+		flex-direction: column;
+	}
+	.experiance-field {
+		width: 100%;
+	}
+	
+	.experiance-field-1{order: 2;}
+	
+	.experiance-field-2{
+		order: 1;
+		border: none;
+	}
+
+	.border-in-experiance-field-2{
+		order: 2;
+		border-left: solid lightgrey;
+		border-right: none;
+	}
+	
+	.interests {
+	flex-direction: column;
+	justify-content: center;
+}
+	.interests-field {
+	width: 100%;
+}
+	.event-Bubble{
+	width: 100px;
+	height: 57px;
+	font-size: 13px;
+	}
+	
+	.event1Bubble {
+	top: -60px;
+	left: -40px;
+}
+	.event2Bubble {
+	left: -40px;
+	top: 33px;
+}
+}
+
+@media screen and (max-width: 630px){
+
+	.header-circle {
+		margin: 70px;
+	}
+	
+	header{
+		flex-direction: column;
+	}
+	
+	.header-name{
+		width: auto
+	}
+	
+	.header-details{
+		width: auto;
+	}
+	.border-in-experiance-field-1 p {
+	font-size: 30px;
+
+}
+		.border-in-experiance-field-2 p {
+	font-size: 30px;
+
+}
+}
