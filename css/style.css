@@ -400,6 +400,7 @@ h2 {
 
 .time-line-article-date {
 	border-left: 2px solid #c4c4c4;
+
 }
 
 .time-line-article-date p {
@@ -681,5 +682,13 @@ meter::-webkit-meter-optimum-value {
 	left: 18%;
 	height: 230px;
 	width: 300px;
+}
+	.time-line-article-date {
+	border-left: 2px solid #c4c4c4;
+	line-height: 60px;
+}
+	.time-line-article-left{
+	border-left: 2px solid #c4c4c4;
+	line-height: 60px;
 }
 }
