@@ -691,4 +691,7 @@ meter::-webkit-meter-optimum-value {
 	border-left: 2px solid #c4c4c4;
 	line-height: 60px;
 }
+	body {
+	margin: 3px;
+}
 }
