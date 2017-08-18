@@ -676,4 +676,10 @@ meter::-webkit-meter-optimum-value {
 	height: 23px;
 		line-height: 20px;
 }
+	#circle-field {
+	position: relative;
+	left: 18%;
+	height: 230px;
+	width: 300px;
+}
 }
